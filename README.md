@@ -2,6 +2,21 @@
 
 Sistema distribuido para clasificacion de PDFs cientificos con FastAPI, consenso por mayoria entre workers y eleccion de lider con algoritmo Bully.
 
+**Nota sobre este repositorio:** Este proyecto fue desarrollado en colaboración. En este *fork* destaco la arquitectura general y mis contribuciones específicas al diseño del sistema.
+
+## Mi Rol y Contribuciones
+
+Durante el desarrollo de este sistema, fui responsable de:
+* **Arquitectura de Microservicios:** Mejoras en la implementación de la comunicación entre el nodo *Master* (API de negocio y ruteo) y los nodos *Workers* (procesamiento y clasificación).
+* **Desarrollo Frontend:** Creación e integración de la interfaz de usuario para interactuar con el sistema distribuido, facilitando la carga de archivos y la visualización de resultados.
+* **Clasificación de Metadatos (Python):** Desarrollo de la lógica de extracción y categorización de archivos científicos basándose en su contenido y metadatos.
+
+## 🛠️ Stack Tecnológico
+* **Backend:** Python, FastAPI, Uvicorn
+* **Frontend:** Interfaz web de usuario
+* **Base de Datos & Auth:** Supabase
+* **Sistemas Distribuidos:** Algoritmo Bully (Elección de líder), Consenso por mayoría.
+* 
 ## Arquitectura
 
 ```text
